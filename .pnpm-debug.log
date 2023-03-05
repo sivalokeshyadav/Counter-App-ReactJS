@@ -1,0 +1,115 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "dependencies": {
+        "create-react-app": "^5.0.1",
+        "eslint": "^8.35.0",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.20"
+      }
+    },
+    "prefix": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/home/theia/.pnpm-store/v3",
+    "virtualStoreDir": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/create-react-app/5.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "create-react-app",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/8.35.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^8.35.0"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.18.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "^4.18.2"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nodemon/2.0.20",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nodemon",
+      "rawSpec": "^2.0.20"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.18.2",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.18.2",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.35.0",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.35.0",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-react-app/5.0.1",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-react-app/5.0.1",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.20",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.20",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "16 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "ESLint is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/ESLint"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "ESLint",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/ESLint: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/ESLint: Not Found - 404\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85815:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
